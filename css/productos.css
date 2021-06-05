@@ -106,7 +106,7 @@ a{
 }
 
 .container {
-    width: 1300px;
+    width: 1200px;
     margin: 0 auto;
     position: relative;
     margin: auto;
@@ -129,8 +129,8 @@ main {
     width: 3rem;
     margin: 0 1rem;
     position: absolute;
-    top: 2169px;
-    left: 11px;
+    top: 2070px;;
+    left: -7px;
     z-index: 400;
 
 }
@@ -139,8 +139,8 @@ main {
     width: 3rem;
     margin: 0 1rem;
     position: absolute;
-    right: 10px;
-    top: 2153px;
+    right: -10px;
+    top: 2050px;
 }
 
 main section {
@@ -238,6 +238,24 @@ main section .thumbnail:hover {
     color: white;
 }
 
+@media (max-width: 400px) {
+    .productos-content {
+        margin: 7px;
+        padding: 0px 10px;
+    }
+    .arrow-left{
+        top: 3300px;
+        left: -9px;
+
+    }
+    .arrow-right {
+        top:3300px;
+        right: -5px;
+    }
+    .container {
+        width: 250px;
+    }
+}
 
 
 
