@@ -40,11 +40,18 @@
     font-family: 'Courier New', Courier, monospace;
 }*/
 
+
 #cuenta {
     display: flex;
     justify-content: center;
-    background: url(../Logo/reloj.jpg);
-    height: 500px;
+    background: url(../Logo/reloj.jpg)no-repeat 0px 0px;
+    background-size: cover;
+     -webkit-background-size: cover; 
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 400px;
+    padding: 3em 0 0 0; 
 }
 
 .simply-section {
@@ -82,4 +89,11 @@
     font-size: 70px;
 
     
+}
+
+@media (max-width: 1000px) {
+    #cuenta {
+        display: none;
+    }
+
 }
