@@ -1,0 +1,244 @@
+section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*TITULO DE LA SECCION*/
+
+.page-title {
+    background: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+}
+
+/*TODO EL CONTENIDO DEL SECCION*/
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: aliceblue;
+
+}
+
+/*CARDS DE PRODUCTOS*/
+
+.productos-content {
+    margin: 15px;
+    padding: 2px 16px;
+    position:relative;
+    background: white;
+    border: 1px solid lightslategray;
+    display: block;
+
+}
+
+.productos-content::before{
+    content: "New";
+    background: #ff4e00;
+    position: absolute;
+    padding: 10px;
+    width: 60px;
+    top: 10px;
+    right: 10px;
+    transform: rotate(-90deg);
+    color: white;
+}
+
+.productos-content:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+
+.productos-content img {
+    width: 320px;
+    height: 320px;
+    margin-top: 10px;
+}
+
+
+/*BOTONES DE AGREGAR*/
+
+.button-add {
+    transition-duration: 0.4s;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    background: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    padding: 10px 25px;
+    border-radius: 8px;
+    position: relative;
+    right: -210px;
+    bottom: 10px;
+    
+    
+}
+  
+.button-add:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*CARRUSEL DE PRODUCTOS*/
+
+.thumbnail img{
+    height: 320px;
+    width: 320px;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    margin: auto;
+}
+
+main {
+
+    background-color: #f4f4f4;
+    padding: 30px;
+    
+}
+
+.slide-container {
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.arrow-left {
+    width: 3rem;
+    margin: 0 1rem;
+    position: absolute;
+    top: 2169px;
+    left: 11px;
+    z-index: 400;
+
+}
+
+.arrow-right {
+    width: 3rem;
+    margin: 0 1rem;
+    position: absolute;
+    right: 10px;
+    top: 2153px;
+}
+
+main section {
+    width: 500px;
+    /* height: 300px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    /* border: 1px solid black; */
+    position: absolute;
+}
+
+main section::-webkit-scrollbar {
+    height: 5px;
+    width: 2px;
+    border: 1px solid #d5d5d5;
+    background: #d5d5d5;
+}
+
+main section::-webkit-scrollbar-track {
+    --webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+main section::-webkit-scrollbar-thumb {
+    background-color: var(--color-primary);
+    outline: 1px solid #eee;
+     /* border-radius: 100px; */
+  }
+
+main section .thumbnail {
+    flex: 0 0 auto;
+	object-fit: cover;
+	cursor: pointer;
+	margin: 5px;
+    border: 1px solid var(--black);
+    overflow: hidden;
+    transform: scale(.95);
+    transition: all .3s;
+}
+
+main section .thumbnail:hover {
+    transform: scale(1);
+}
+
+.product-details {
+    text-align: center;
+    padding-bottom: 1rem;
+    background-color: #fff;
+}
+
+.product-details h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.product-details p {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    color: green;
+    font-weight: 700;
+}
+
+.product-details p span {
+    text-decoration: line-through;
+    color: red;
+    font-weight: normal;
+}
+
+.product-details a {
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: orange;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+}
+
+.product-details a:hover {
+    background-color: green;
+}
+
+.thumbnail::before{
+    content: "New";
+    background: grey;
+    position: absolute;
+    padding: 10px;
+    width: 60px;
+    top: 20px;
+    right: 10px;
+    transform: rotate(-90deg);
+    color: white;
+}
+
+
+
+
+

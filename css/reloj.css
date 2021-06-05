@@ -1,0 +1,85 @@
+
+/*.cont-reloj{
+    background: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+     font-weight: bold;
+     font-family: sans-serif;
+     color: #fff;
+     padding-top: 20px;
+    
+}
+
+.cont-reloj img{
+    width: 1320px;
+    border-radius: 1%;
+    margin-bottom: 20px;
+    
+}
+.cont-reloj img::before{
+    background-color: rgba(0,0,0,0.2);
+}
+
+.cont-reloj h2{
+    position: absolute;
+    display: block;
+    top: 1730px;
+    font-size: 40px;
+}
+.reloj{
+    font-size:100px;  
+    position: absolute;
+    top: 1780px;
+}
+.datos{
+    font-size: 2.5em;
+    font-family: 'Courier New', Courier, monospace;
+}*/
+
+#cuenta {
+    display: flex;
+    justify-content: center;
+    background: url(../Logo/reloj.jpg);
+    height: 500px;
+}
+
+.simply-section {
+    font-family: 'Work Sans', sans-serif;
+    width: 180px;
+	height: 180px;
+	margin: 100px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    position: relative;
+}
+
+.simply-amount {
+    display: block;
+	font-size: 50px;
+	font-weight: 700;
+    color: white;
+
+}
+
+.simply-word {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+
+}
+
+.padre {
+    position: absolute;
+    color: white;
+    margin: 60px;
+    font-size: 70px;
+
+    
+}

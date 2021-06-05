@@ -1,0 +1,250 @@
+
+/* LOGO PRINCIPAL */
+
+.contenedor-logo img{
+    display: flow-root;
+    margin: auto;
+    padding: 10px;
+}
+
+/* LOGO DE USUARIOS*/
+
+.contenedor-usuario {
+    position: absolute;
+    display: block;
+    right: 70px;
+    top:20px;
+}
+/*LOGO DE CARRITO*/
+
+.contenedor-carrito {
+    position: absolute;
+    display: block;
+    right: 30px;
+    top:20px;
+}
+
+/*NAVEGADOR DE LA PAGINA*/
+
+.contenedor-nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor-nav {
+    height: 30px;
+}
+.contenedor-nav ul{
+    list-style: none;
+    float: left;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 450px;
+    position: absolute;
+    font-size: 18px;
+    padding: 5px;
+
+}
+
+
+.contenedor-nav ul li {
+    list-style: none;
+    
+}
+
+.contenedor-nav .tres {
+    display: flex;
+    padding-left: 50px;
+}
+
+.contenedor-nav .uno {
+    text-align: center;
+    display: block;
+    margin-right: 55px;
+}
+
+.contenedor-nav .dos{
+    text-align: center;
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.contenedor-nav .uno a:hover {
+    color: aqua;
+}
+
+.contenedor-nav .dos a:hover {
+    color: aqua;
+}
+
+.contenedor-nav .tres a:hover {
+    color: aqua;
+}
+
+/*NAVEGADOR INTERMEDIO DE LA PAGINA(BUZO,CAMPERA, REMERA)*/
+
+.nav-intermedio ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-intermedio {
+    height: 30px;
+    border-bottom: 1px solid lightgray;
+    border-top:1px solid lightgray ;
+    position: relative;
+    display: block;
+    
+}
+
+.nav-intermedio ul{
+    list-style: none;
+    float: left;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 500px;
+    position: absolute;
+    font-size: 18px;
+    padding: 5px;
+}
+
+
+.nav-intermedio ul li {
+    list-style: none;
+    
+}
+
+.nav-intermedio .nav-uno {
+    text-align: center;
+    display: block;
+    margin-right: 55px;
+}
+
+.nav-intermedio .nav-dos{
+    text-align: center;
+    display: inline-block;
+    margin-right: 55px;
+}
+
+.nav-intermedio .nav-uno a:hover {
+    color: aqua;
+}
+
+.nav-intermedio .nav-dos a:hover {
+    color: aqua;
+}
+
+.nav-intermedio .nav-tres a:hover {
+    color: aqua;
+}
+
+/*SLIDER PRINCIPAL*/
+
+
+.slider-container{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider {
+    width: 300%;
+    display: flex;
+    margin-left: 0%;
+
+}
+
+.slider__section {
+    width: 100%;
+    position: relative;
+}
+
+.slider__img {
+    display: block;
+    width: 100% ;
+    height: 300px;
+    object-fit: cover;
+}
+
+.slider__btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, .7);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 400;
+}
+
+.slider__btn:hover {
+    background: #fff;
+}
+
+.slider__btn--left{
+    left: 10px;
+}
+
+.slider__btn--right{
+    right: 10px;
+}
+
+.section__cabecera {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.section__boton{
+    display: block;
+    border: 1px solid #ff4e00;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    position: absolute;
+    left: 200px;
+}
+.section__boton-1{
+    display: block;
+    border: 1px solid #ff4e00;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    width: 100px;
+    left: 240px;
+    
+}
+
+.section__boton-2{
+    display: block;
+    border: 1px solid #ff4e00;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    width: 100px;
+    left: 250px;
+}
+
+
+
+.section__title {
+    font-size: 50px;
+}
+

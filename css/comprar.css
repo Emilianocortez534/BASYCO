@@ -1,0 +1,71 @@
+section {
+    margin: 0;
+    background: aliceblue;
+}
+
+.title {
+    text-align: center;
+    padding: 90px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.title h1 {
+    font-size: 40px;
+
+}
+
+.title h2 {
+    padding: 10px;
+    font-size: 25px;
+    color: #999;
+}
+
+
+.pasos {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-size: 14px;
+    line-height: 1.57142857;
+    color: #76838f;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 30px;
+}
+
+.paso {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-size: 14px;
+    line-height: 1.57142857;
+    color: #76838f;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    padding: 5px;
+    flex-basis: calc(100% /3 - 20px);
+    margin: 10px;
+    position: relative;
+}
+
+.paso-numero {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    background: #5b5b5b;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
