@@ -335,7 +335,7 @@ main section .thumbnail:hover {
         right: -12px;
     }
     .productos-content {
-        margin: 0 150px 20px;
+        margin: 0 207px 20px;
     }
 }
 
@@ -434,11 +434,14 @@ main section .thumbnail:hover {
         top:3500px;
         right: -12px;
     }
+    .productos-content{
+        margin: 0 29px 20px;
+    }
 }
 
 @media (max-width: 400px) {
     .productos-content {
-        margin: 7px;
+        margin: 13px;
         padding: 0px 10px;
     }
     .arrow-left{
@@ -454,8 +457,4 @@ main section .thumbnail:hover {
         width: 250px;
     }
 }
-
-
-
-
 
