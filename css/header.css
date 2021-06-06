@@ -1,5 +1,4 @@
 
-
 /* LOGO PRINCIPAL */
 
 .contenedor-logo img{
@@ -563,25 +562,47 @@
     .nav-intermedio {
         border-top: none;
     }
-    .section__title {
+    .section__title { 
         font-size: 30px;
         position: relative;
-        left: 30px;
-        top: 0px;
-
+        width: 600px;
+        height: 120px;
+     
     }
+
+    .title-1{
+        left: 140px;
+        top:20px;
+    }
+    .title-2 {
+        left: 160px;
+        top: 20px;
+    }
+    .title-3 {
+        left: 170px;
+        top:20px;
+    }
+
+
     .section__boton{
-        top: 90px;
-        left: 40px;
+        top: 100px;
+        left: 260px;
     }
     .section__boton-2{
-        top: 90px;
-        left: 50px;
+        top: 100px;
+        left: 260px;
     }
     .section__boton-1{
-        top: 90px;
-        left: 40px;
+        top: 100px;
+        left: 260px;
     }
+    .slider__btn--right{
+        top:160px;
+    }
+    .slider__btn--left {
+        top: 160px;
+    }
+
 }
 @media (max-width:400px) {
     
@@ -600,29 +621,38 @@
         top: 20px;
     }
 
-    .section__title {
-        font-size: 30px;
+    .section__title { 
+        font-size: 25px;
         position: relative;
-        left: 20px;
-        top: 0px;
-        
-
+        width: 600px;
+        height: 120px;
+     
     }
 
-    .section__cabecera{
-        top:150px;
-        
+    .title-1{
+        left: 160px;
+        top:10px;
     }
+    .title-2 {
+        left: 170px;
+        top: 10px;
+    }
+    .title-3 {
+        left: 190px;
+        top:20px;
+    }
+
+
     .section__boton{
-        top: 90px;
-        left: 40px;
+        top: 100px;
+        left: 250px;
     }
     .section__boton-2{
-        top: 90px;
-        left: 50px;
+        top: 100px;
+        left: 250px;
     }
     .section__boton-1{
-        top: 90px;
-        left: 40px;
+        top: 100px;
+        left: 250px;
     }
 } 
